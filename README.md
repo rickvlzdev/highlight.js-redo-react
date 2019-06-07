@@ -10,5 +10,5 @@ $ npm install
 ```
 $ npm run start
 ```
-Open your preferred browser and go to http://localhost:8080.
+Open your preferred browser and go to http://localhost:8080.\
 ![alt text] ()
