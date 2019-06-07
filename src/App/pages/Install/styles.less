@@ -1,0 +1,33 @@
+@import '~#styles/variables.less';
+@import '../GettingStarted/styles.less';
+
+.container {
+  article {
+    h3 {
+      margin-top: 15px;
+    }
+
+    form {
+      margin: 30px 0;
+      text-align: center;
+      
+      .langList {
+        max-height: 500px;
+        margin-bottom: 20px;
+        overflow: scroll;
+
+        ul {
+          display: flex;
+          justify-content: space-between;
+          flex-wrap: wrap;
+
+        li {
+          width: 130px;
+          margin: 10px;
+          text-align: left;
+        }
+      }
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+@import '~#styles/variables';
+@import '../GettingStarted/styles.less';
+
+.container {
+  article {
+    .news {
+      .item {
+        margin-bottom: 20px;
+        display: flex;
+        
+        span {
+          padding: 0 15px;
+          font-weight: bolder;
+        }
+
+        @media(max-width: 400px) {
+          display: block;
+
+          span {
+            padding: 0;
+          }
+        }
+
+        .group {
+          ul {
+            padding-left: 10px;
+            margin: 30px 0;
+            list-style-type: circle;
+
+            li {
+              margin-bottom: 15px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
